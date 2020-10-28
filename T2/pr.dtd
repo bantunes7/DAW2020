@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT pr (prtitle, details, workteam, abstract, deliverables) >
+
+<!ELEMENT prtitle (#PCDATA) >
+
+<!ELEMENT details (kname, dtitle, dsubtitle, bdate, edate, supervisors) >
+<!ELEMENT kname (dbtext, stext) >
+<!ELEMENT dtitle (dbtext, stext) >
+<!ELEMENT dsubtitle (dbtext, stext) >
+<!ELEMENT bdate (dbtext, stext) >
+<!ELEMENT edate (dbtext, stext) >
+<!ELEMENT supervisors (dbtext, supervisor+) >
+<!ELEMENT supervisor (stext) >
+<!ATTLIST suprvisor href CDATA #IMPLIED>
+<!ELEMENT dbtext (b) >
+<!ELEMENT b (#PCDATA) >
+<!ELEMENT stext (#PCDATA) >
+
+<!ELEMENT workteam (worker, worker?, worker?) >
+<!ELEMENT worker (name, pnmbr, email, webpage?) >
+<!ATTLIST worker id  ID #REQUIRED >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT pnmbr (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ATTLIST email href CDATA #REQUIRED >
+<!ELEMENT webpage (#PCDATA) >
+<!ATTLIST webpage href CDATA #REQUIRED >
+
+<!ELEMENT abstract (stext | b | i | u | link | p)+ >
+<!ELEMENT i (#PCDATA) >
+<!ELEMENT u (#PCDATA) >
+<!ELEMENT p (#PCDATA) >
+<!ELEMENT link EMPTY >
+<!ATTLIST link href CDATA #REQUIRED >
+
+<!ELEMENT deliverables (webpage)+ >
