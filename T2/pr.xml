@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <prtitle>Memórias Descritivas</prtitle>
+    <details>
+        <kname>
+            <dbtext><b>Nome de Codigo :</b></dbtext>
+            <stext>Maria Albertina</stext>
+        </kname>
+        <dtitle>
+            <dbtext><b>TPC :</b></dbtext>
+            <stext>Trabalho 2</stext>
+        </dtitle>
+        <dsubtitle>
+            <dbtext><b>Categoria :</b></dbtext>
+            <stext>Trabalho relevante a cadeira D.A.W.</stext>
+        </dsubtitle>
+        <bdate>
+            <dbtext><b>Data de Inicio :</b></dbtext>
+            <stext>Outubro 2020</stext>
+        </bdate>
+        <edate>
+            <dbtext><b>Date de fim :</b></dbtext>
+            <stext>Outubro 2020</stext>
+        </edate>
+        <supervisors>
+            <dbtext><b>Supervisores :</b></dbtext>
+            <supervisor href="http://www4.di.uminho.pt/~jcr">J.C.Ramalho</supervisor>
+        </supervisors>
+    </details>
+    <workteam>
+        <worker>
+            <name>Bruno Antunes</name>
+            <pnmbr>999999999 (cobaia)</pnmbr>
+            <email href="bbabababa@gmail.com">bbabababa@gmail.com(cobaia)</email>
+        </worker>
+    </workteam>
+    <abstract>
+        Este documento serve para identificar projectos e dar uma breve 
+        mas bem apresentada descricao deste. Contem alem dos detalhes dos supervisores e
+        participantes, o periodo em que o tarbalho foi produzido e todas as informacoes relvantes
+        de todos os envolvidos, com ainda uma grande prose relevante a descricao do projeto
+    </abstract>
+    <deliverables>
+        <webpage href="https://github.com/bantunes7/DAW2020/blob/master/T2/pr.dtd">DTD de Memorias descitivas</webpage>
+    </deliverables>
+</pr>
