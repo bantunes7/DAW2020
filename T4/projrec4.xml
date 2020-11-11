@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/brunoantunes/Documents/GitHub/DAW2020/pr.dtd">
+<pr>
+    <meta>
+        <key>Respiradouro</key>
+        <title>DAW2020 TPC 4</title>
+        <bdate>Novembro 2020</bdate>
+        <edate>Novembro 2020</edate>
+        <supervisor>Jose Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="PG40866">
+            <name>Bruno Antunes</name>
+            <email>pg40866@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>O T.P.C 4 requeria que: <b>1)</b> fossem criados os documentos arq1.html, arq2.html, ... 
+            seguidamente <b>2)</b> era necessario criar um servidor que respondesse apenas a um certo
+            tipo de mensagens, e por ultimo <b>3)</b> criar um indice respetivo que comunicasse com
+            este servidor e este o mostra-se.
+        </p>
+        <p>
+            Para relizar <b>1)</b> foi feito um pequeno script em python que adiciona-se a cada elemento
+            um atributo id que ia crescendo ao longo da travessia da arvore gerada do xml. De 
+            seguida foi adaptado o xsl criado no tpc anterior para criar os documentos relativos
+            a cada elemento a partir deste novo id.
+        </p>
+        <p>
+            Relativamente a <b>2)</b> foi criado um servidor baseado naqueles feitos na aula 4, apenas
+            com dois if's para testar se o pedido era valido.
+        </p>
+        <p>
+            Por fim para completar, <b>3)</b> tambem foi adaptado o xsl para criar um indice com novas
+            referencias baseadas no trabalho feito, isto e, links com pedidos para o servidor criado, que
+            requiram o documento respetivo.
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/bantunes7/DAW2020/tree/master/T4/gendocs">Doumentos de geracao do trabalho</link>
+        <link url="https://github.com/bantunes7/DAW2020/tree/master/T4/server">Documentos do Servidor</link>
+        <link url="https://github.com/bantunes7/DAW2020/tree/master/T4/site"> Documentos Gerados</link>
+    </deliverables>
+</pr>
